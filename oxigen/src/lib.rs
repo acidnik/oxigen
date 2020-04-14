@@ -75,7 +75,7 @@ pub struct Fitness {
     /// Age of the individual.
     age: u64,
     /// Actual fitness.
-    fitness: f64,
+    pub fitness: f64,
     /// Original fitness of the individual before being unfitnessed by age.
     original_fitness: f64,
 }
